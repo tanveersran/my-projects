@@ -40,19 +40,19 @@ public class Calculator {
 			System.out.println(number1 * number2);
 		
 		
-		if (output == "Add" || output == "+")
+		else if (output == "Add" || output == "+")
 			System.out.println(number1 + number2);
 			
 			
-		if (output == "Subtract" || output == "-")
+		else if (output == "Subtract" || output == "-")
 			System.out.println(number1 - number2);
 			
 			
-		if (output == "Remainder" || output == "%")
+		else if (output == "Remainder" || output == "%")
 			System.out.println(number1 % number2);
 			
 			
-		if (output == "Divide" || output == "/")
+		else if (output == "Divide" || output == "/")
 			System.out.println(number1 / number2);
 		
 		else 
